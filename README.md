@@ -9,8 +9,7 @@ A Python AI system that predicts loan eligibility and default risk.
 3. Run: `python models/train_model.py`
 4. Predict: `python app/main.py`
 
-#🧱 Architecture
-
+## 🧱 Architecture
 
 The system primarily follows: Data-Centric Microservices Architecture with Modular Monolith characteristics
 This architecture is particularly well-suited for ML systems because it:
