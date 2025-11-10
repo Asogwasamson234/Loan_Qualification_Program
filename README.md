@@ -32,7 +32,8 @@ This architecture is particularly well-suited for ML systems because it:
    
 <img width="1024" height="1024" alt="Gemini_Generated_Image_gppeo8gppeo8gppe" src="https://github.com/user-attachments/assets/d9d3c2d5-37ab-4f1a-9fc9-e65ea32d1126" />
 
-Key Architectural Patterns
+
+## Key Architectural Patterns
 
 1. Layered Architecture (N-Tier)
    <img width="1024" height="1024" alt="Gemini_Generated_Image_5hd35e5hd35e5hd3" src="https://github.com/user-attachments/assets/507037f6-1f95-4ee4-b3ff-ba4fa8b1cc0e" />
@@ -54,7 +55,7 @@ Key Architectural Patterns
 | **Deployment**       | Containerization, Continuous Integration/Continuous Deployment (CI/CD) | Docker, GitHub Actions, AWS                |
 
 
-Architecture Classification:
+## Architecture Classification:
 | Aspect                   |       System's Approach                       | Architecture Pattern               |
 |--------------------------|----------------------------------------------|------------------------------------|
 | Data Flow                | Sequential pipeline processing                | Pipeline Architecture               |
@@ -85,7 +86,7 @@ The system successfully implements:
 Quality Metrics
 | Metric       | Current | Target | Status               |
 |--------------|---------|--------|----------------------|
-| Completeness | 98.7%   | 99.5%  | ⚠️ Needs improvement  |
+| Completeness | 98.7%   | 99.5%  |  Needs improvement  |
 | Accuracy     | 99.2%   | 99.0%  | ✅ Excellent         |
 | Consistency  | 97.8%   | 98.0%  | ✅ Good              |
 | Timeliness   | 96.1%   | 95.0%  | ✅ Excellent         |
@@ -108,6 +109,15 @@ Dimensional Models
 | DimLoan       | Loan Characteristics    | Per Application   | loan type, amount tier, term category, purpose   |
 | DimTime       | Temporal Analysis       | Daily            | application date, decision date, calendar attributes |
 | DimRisk       | Risk Classification     | Per Score        | risk category, probability range, recommendation   |
+
+## 💼 BUSINESS USE CASES & VALUE
+Use Case 1: Automated Loan Underwriting
+
+Requirement	Supporting Model	Business Value
+Real-time default probability	Random Forest Classifier	Reduce manual review by 60%
+Risk-based pricing	Regression Model	Increase margins by 2-3%
+Application prioritization	Anomaly Detection	Improve customer experience
+
 
 ## Executive Summary
 This enterprise-grade system leverages ensemble machine learning to transform raw financial data into actionable loan qualification insights. The platform processes multiple data sources, trains predictive models, and provides real-time risk assessments through an intuitive interface.
