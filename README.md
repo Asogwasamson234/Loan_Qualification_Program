@@ -111,12 +111,33 @@ Dimensional Models
 | DimRisk       | Risk Classification     | Per Score        | risk category, probability range, recommendation   |
 
 ## 💼 BUSINESS USE CASES & VALUE
-Use Case 1: Automated Loan Underwriting
+   Use Case 1: Automated Loan Underwriting
+| Requirement                      | Supporting Model           | Business Value                  |
+|----------------------------------|----------------------------|---------------------------------|
+| Real-time default probability     | Random Forest Classifier    | Reduce manual reviews by 60%    |
+| Risk-based pricing                | Regression Model            | Increase margins by 2-3%        |
+| Application prioritization        | Anomaly Detection           | Improve the customer experience  |
 
-Requirement	Supporting Model	Business Value
-Real-time default probability	Random Forest Classifier	Reduce manual review by 60%
-Risk-based pricing	Regression Model	Increase margins by 2-3%
-Application prioritization	Anomaly Detection	Improve customer experience
+   Use Case 2: Portfolio Risk Management
+| Requirement                | Supporting Model         | Business Value                     |
+|----------------------------|--------------------------|------------------------------------|
+| Default prediction at scale | Ensemble Methods          | Reduce NPL by 15% to 20%           |
+| Early warning system        | Time Series Analysis      | Proactive risk mitigation           |
+| Concentration analysis      | Clustering Algorithms     | Optimize portfolio mix             |
+
+   Use Case 3: Regulatory Compliance
+| Requirement                | Supporting Model             | Business Value                     |
+|----------------------------|------------------------------|------------------------------------|
+| Fair lending analysis       | Bias Detection Algorithms     | Avoid regulatory penalties          |
+| Audit trail generation      | Transaction Logging           | Streamline compliance reporting      |
+| Explainable AI             | SHAP/LIME Interpretability    | Build regulator trust               |
+
+   Use Case 4: Customer Experience Enhancement
+| Requirement               | Supporting Model                      | Business Value                     |
+|---------------------------|---------------------------------------|------------------------------------|
+| Instant decisions          | Real-time Inference                   | Increase conversion by 25%         |
+| Personalized offers       | Recommendation Engine                 | Cross-sell revenue growth          |
+| Application streamlining   | NLP for Document Processing           | Reduce drop-off rates              |
 
 
 ## Executive Summary
